@@ -1,0 +1,9 @@
+0,HARI,*,*,Hari ini adalah hari <date format="%A" jformat="EEEEEEEE"/>,date.aiml
+0,TAHUN,*,*,Tahun <date format="%Y" jformat="YYYY"/>,date.aiml
+0,BULAN,*,*,Bulan <date format="%B" jformat="MM"/>,date.aiml
+0,JAM,*,*,Sekarang jam <date format="%I:%M %p" jformat="h:mm a"/>,date.aiml
+0,BAGAIMANA HARI INI,*,*,<think><set name="hour"><date format="%I" jformat="h"/></set></think><condition name="hour" value="0">Sekarang hari sudah siang</condition><condition name="hour" value="5">Sekarang hari sudah sore</condition><condition name="hour" value="6">Sekarang hari sudah mulai malam</condition><condition name="hour" value="12">Sekarang hari sudah siang</condition>,date.aiml
+0,TANGGAL,*,*,Hari ini tanggal <date format="%B %d#Comma %Y" jformat="dd MM#Comma YYYY"/>,date.aiml
+0,TANGGAL DAN JAM,*,*,Tanggal dan jam hari ini <date/>,date.aiml
+0,TANGGAL DAN JAM SEKARANG,*,*,Tanggal dan jam sekarang <date/>,date.aiml
+0,BERAPA HARI LAGI ULANG TAHUN SAYA,*,*,Ulang tahun kamu <interval>#Newline<jformat>dd MM</jformat>#Newline<style>days</style>#Newline<from><date jformat="dd MM"/></from>#Newline<to>28 10</to>#Newline</interval> hari lagi.,date.aiml

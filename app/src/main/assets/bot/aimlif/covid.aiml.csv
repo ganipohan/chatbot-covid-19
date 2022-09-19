@@ -1,0 +1,53 @@
+0,KAMU TAHU COVID-19,*,*,Ya saya tahu <set name="topic">covid</set>,covid.aiml
+0,APA ITU COVID-19,*,covid,<srai>COVID</srai>,covid.aiml
+0,APA GEJALA RINGAN,*,covid,<srai>GEJALA RINGAN</srai>,covid.aiml
+0,APA GEJALA RINGAN COVID-19,*,covid,<srai>GEJALA RINGAN</srai>,covid.aiml
+0,APA GEJALA SERIUS,*,covid,<srai>GEJALA SERIUS</srai>,covid.aiml
+0,APA GEJALA SERIUS COVID-19,*,covid,<srai>GEJALA SERIUS</srai>,covid.aiml
+0,COVID,*,*,Penyakit virus corona (COVID-19) adalah penyakit menular yang disebabkan oleh virus SARS-CoV-2.#Newline#NewlineSebagian besar orang yang tertular COVID-19 akan mengalami gejala ringan hingga sedang#Comma dan akan pulih tanpa penanganan khusus. Namun#Comma sebagian orang akan mengalami sakit parah dan memerlukan bantuan medis.,covid.aiml
+0,APAKAH ITU COVID-19,*,*,<srai>COVID</srai>,covid.aiml
+0,APA ITU COVID-19,*,*,<srai>COVID</srai>,covid.aiml
+0,COVID-19,*,*,<srai>COVID</srai>,covid.aiml
+0,COVID-19 MASUK INDONESIA,*,*,Kasus positif COVID-19 di Indonesia pertama kali dideteksi pada tanggal 2 Maret 2020,covid.aiml
+0,COVID-19 MASUK KE INDONESIA,*,*,<srai>COVID MASUK INDONESIA</srai>,covid.aiml
+0,KAPAN COVID-19 MASUK KE INDONESIA,*,*,<srai>COVID MASUK INDONESIA</srai>,covid.aiml
+0,SUHU TUBUH,*,*,Suhu tubuh menjadi salah satu gejala seseorang diduga tertular Covid-19#Comma selain itu ada batuk flu dan sesak napas yang juga menjadi gejala penyakit tersebut. Seseorang patut diduga tertular Covid-19 jika suhu tubuhnya mencapai 38 derajat celcius ke atas.,covid.aiml
+0,BERAPA SUHU TUBUH TERINFEKSI COVID-19,*,*,<srai>SUHU TUBUH</srai>,covid.aiml
+0,VAKSIN PERTAMA,*,*,Vaksin COVID-19 tiba di Indonesia pertama kali pada tanggal 6 Desember 2020 sejumlah 1#Comma2 juta dosis dengan merk vaksin CoronaVac buatan dari Sinovac.,covid.aiml
+0,APA VAKSIN PERTAMA DI INDONESIA,*,*,<srai>VAKSIN PERTAMA</srai>,covid.aiml
+0,KAPAN VAKSIN MASUK KE INDONESIA,*,*,<srai>VAKSIN PERTAMA</srai>,covid.aiml
+0,VAKSIN,*,*,Vaksin merupakan antigen (mikroorganisma) yang diinaktivasi atau dilemahkan yang bila diberikan kepada orang yang sehat untuk menimbulkan antibodi spesifik terhadap mikroorganisma tersebut#Comma sehingga bila kemudian terpapar#Comma akan kebal dan tidak terserang penyakit. Bahan dasar membuat vaksin tentu memerlukan mikroorganisma#Comma baik virus maupun bakteri. Menumbuhkan mikroorganisma memerlukan media tumbuh yang disimpan pada suhu tertentuMikroorganisma yang tumbuh kemudian akan dipanen#Comma diinaktivasi#Comma dimurnikan#Comma diformulasi dan kemudian dikemas.,covid.aiml
+0,APAKAH VAKSIN HALAL,*,*,MUI telah memberikan ketetapan halal dan suci terhadap vaksin COVID-19 merek Sinovac#Comma Zifivax#Comma Merah Putih#Comma Vaksin produksi Beijing Institute of Biological Products.#Newline#NewlineIndonesia juga telah mendistribusikan enam regimen vaksin yang mendapat izin penggunaan dari BPOM#Comma seperti Sinovac#Comma AstraZeneca#Comma Pfizer#Comma Moderna#Comma Janssen#Comma dan Sinopharm.,covid.aiml
+0,MANFAAT VAKSIN,*,*,1.Merangsang Sistem Kekebalan Tubuh#NewlineVaksin yang terdiri dari berbagai produk biologi dan bagian dari virus yang sudah dilemahkan yang disuntikkan ke dalam manusia#Comma akan merangsang timbulnya imun atau daya tahan tubuh seseorang.#Newline2.Mengurangi Risiko Penularan#NewlineTubuh seseorang yang telah disuntikkan vaksin#Comma akan merangsang antibodi untuk belajar dan mengenali virus yang telah dilemahkan tersebut. Dengan demikian#Comma tubuh akan mengenai virus dan mengurang risiko terpapar.#Newline3.Mengurangi Dampak Berat dari Virus#NewlineDengan kondisi kekebalan tubuh yang telah mengenali virus#Comma maka jika sistem imun seseorang kalah dan kemudian terpapar#Comma maka dampak atau gejala dari virus tersebut akan mengalami pelemahan.#Newline4.Mencapai Herd Immunity#NewlineSemakin banyak individu yang melakukan vaksin di sebuah daerah atau negara#Newline maka Herd Immunity akan tercapai#Newline sehingga meminimalisir risiko paparan dan mutasi dari virus Covid-19.,covid.aiml
+0,APA MANFAAT VAKSIN,*,*,<srai>MANFAAT VAKSIN</srai>,covid.aiml
+0,APA ITU VAKSIN,*,*,<srai>VAKSIN</srai>,covid.aiml
+0,GEJALA RINGAN,*,*,Gejala Paling Umum:#Newline1.Demam.#Newline2.Batuk#Newline3.Kelelahan#Newline4.Kehilangan rasa atau penciuman#NewlineGejala yang sedikit tidak umum:#Newline1.Sakit tenggorokan.#Newline2.Sakit kepala#Newline3.Sakit dan nyeri#Newline4.Diare#Newline5.Ruam pada kulit#Coma atau perubahan warna pada jari tangan atau jari kaki#Newline6.Mata merah atau iritasi,covid.aiml
+0,GEJALA SERIUS,*,*,Gejala serius:#Newline1.Kesulitan bernapas atau sesak napas.#Newline2.Kesulitan berbicara atau bergerak atau bingung#Newline3.Nyeri dada#Newline,covid.aiml
+0,GEJALA COVID,*,*,<srai>GEJALA RINGAN</srai>#Newline<srai>GEJALA SERIUS</srai>,covid.aiml
+0,GEJALA COVID-19,*,*,<srai>GEJALA RINGAN</srai>#Newline<srai>GEJALA SERIUS</srai>,covid.aiml
+0,APA GEJALA COVID-19,*,*,<srai>GEJALA RINGAN</srai>#Newline<srai>GEJALA SERIUS</srai>,covid.aiml
+0,APA GEJALA TERINFEKSI COVID-19,*,*,<srai>GEJALA RINGAN</srai>#Newline<srai>GEJALA SERIUS</srai>,covid.aiml
+0,PENULARAN COVID,*,*,Seseorang dapat terinfeksi dari penderita COVID-19. Penyakit ini dapat menyebar melalui tetesan kecil (droplet) dari hidung atau mulut pada saat batuk atau bersin. Droplet tersebut kemudian jatuh pada benda di sekitarnya.,covid.aiml
+0,PENULARAN COVID-19,*,*,<srai>PENULARAN COVID</srai>,covid.aiml
+0,PENYEBARAN COVID-19,*,*,<srai>PENULARAN COVID</srai>,covid.aiml
+0,PENYEBARAN COVID,*,*,<srai>PENULARAN COVID</srai>,covid.aiml
+0,APA KEPANJANGAN COVID-19,*,*,Menurut Pusat Pengendalian dan Pencegahan Penyakit#Comma kata COVID-19 merupakan singkatan dari kata "CO" yang berarti "COrona"#Comma "VI" adalah "VIrus"#Comma dan "D" adalah “Disease alias penyakit”. Sementara angka “19” menunjukan tahun ditemukannya varian virus tersebut#Comma yakni tahun 2019.,covid.aiml
+0,KEPANJANGAN COVID,*,*,<srai>PENULARAN COVID</srai>,covid.aiml
+0,KEPANJANGAN COVID-19,*,*,<srai>PENULARAN COVID</srai>,covid.aiml
+0,PENYEBAB COVID-19,*,*,Penyebab Corona virus merupakan virus single stranded RNA yang berasal dari kelompok Coronaviridae. Dinamakan coronavirus karena permukaannya yang berbentuk seperti mahkota (crown/corona).Virus lain yang termasuk dalam kelompok yang serupa adalah virus yang menyebabkan Middle East Respiratory Syndrome (MERS-CoV) dan Severe Acute Respiratory Syndrome (SARS-CoV) beberapa tahun silam. Namun#Comma virus corona dari Wuhan ini merupakan virus baru yang belum pernah teridentifikasi pada manusia sebelumnya. Karena itu#Comma virus ini juga disebut sebagai 2019 Novel Coronavirus atau 2019-nCoV.,covid.aiml
+0,APA PENYEBAB COVID-19,*,*,<srai>PENYEBAB COVID-19</srai>,covid.aiml
+0,PENYEBAB TERJADINYA COVID-19,*,*,<srai>PENYEBAB COVID-19</srai>,covid.aiml
+0,PENCEGAHAN COVID-19,*,*,Metode pencegahan penularan :#Newline1.Menjaga kesehatan dan kebugaran agar stamina tubuh tetap prima.#Newline2.Mencuci tangan dengan benar secara teratur menggunakan air dan sabun atau hand-rub berbasis alkohol.#Newline3.Jaga jarak setidaknya 1 meter dengan orang lain. Jika anda terlalu dekat#Comma anda dapat menghirup droplet dari orang yang mungkin menderita COVID-19.#Newline4.Ketika batuk dan bersin#Comma tutup hidung dan mulut Anda dengan tisu atau lengan atas bagian dalam (bukan dengan telapak tangan).#Newline5.Hindari menyentuh mata#Comma hidung dan mulut (segitiga wajah).#Newline6.Gunakan masker dengan benar hingga menutupi mulut dan hidung ketika Anda sakit atau saat sedang keluar rumah.#Newline7.Tetap dirumah#Comma  hindari kontak dengan orang lain dan bepergian ke tempat umum.,covid.aiml
+0,BAGAIMANA PENCEGAHAN COVID-19,*,*,<srai>PENCEGAHAN COVID-19</srai>,covid.aiml
+0,LANGKAH PENCEGAHAN COVID-19,*,*,<srai>PENCEGAHAN COVID-19</srai>,covid.aiml
+0,LANGKAH PENCEGAHAN PENULARAN COVID-19,*,*,<srai>PENCEGAHAN COVID-19</srai>,covid.aiml
+0,PENCEGAHAN PENULARAN COVID-19,*,*,<srai>PENCEGAHAN COVID-19</srai>,covid.aiml
+0,BAGAIMANA PENCEGAHAN PENULARAN COVID-19,*,*,<srai>PENCEGAHAN COVID-19</srai>,covid.aiml
+0,TANDA COVID-19,*,*,Masing-masing orang memiliki respons yang berbeda terhadap COVID-19. Sebagian besar orang yang terpapar virus ini akan mengalami gejala ringan hingga sedang (tanya gejala ringan)#Comma dan akan pulih tanpa perlu dirawat di rumah sakit.,covid.aiml
+0,TANDA-TANDA TERINFEKSI COVID-19,*,*,<srai>TANDA COVID-19</srai>,covid.aiml
+0,TANDA-TANDA COVID-19,*,*,<srai>TANDA COVID-19</srai>,covid.aiml
+0,PENANGANAN COVID-19,*,*,Isolasi mandiri:#Newline1.Hubungi penyedia layanan kesehatan atau hotline COVID-19.#Newline2.Taati prosedur pelacakan kontak untuk menghentikan penyebaran virus#Newline3.Jika tes tidak tersedia#Newline4.Selama masa karantina#Comma jangan pergi ke kantor#Comma sekolah#Comma atau tempat-tempat umum#Newline5.Jaga jarak minimal 1 meter dari orang lain#Comma termasuk anggota keluarga Anda#Newline6.Kenakan masker medis.#Newline7.Cuci tangan Anda secara rutin#Newline8.Pastikan ventilasi ruangan selalu baik#NewlinePerawatan medis:#Newline1.Perawatan pendukung yang optimal meliputi pemberian oksigen bagi pasien yang sakit parah dan berisiko mengalami sakit parah#Comma serta alat bantu pernapasan canggih#Comma seperti ventilator#Comma bagi pasien yang sakit kritis.#Newline2.Dexamethasone adalah kortikosteroid yang dapat membantu mengurangi durasi penggunaan ventilator dan menyelamatkan nyawa pasien yang sakit parah dan kritis.,covid.aiml
+0,CARA PENANGANAN COVID-19,*,*,<srai>PENANGANAN COVID-19</srai>,covid.aiml
+0,BAGAIMANA CARA PENANGANAN COVID-19,*,*,<srai>PENANGANAN COVID-19</srai>,covid.aiml
+0,TIPS ISOLASI MANDIRI,*,*,<srai>PENANGANAN COVID-19</srai>,covid.aiml
+0,TIPS PENANGANAN COVID-19,*,*,<srai>PENANGANAN COVID-19</srai>,covid.aiml

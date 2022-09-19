@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>HARI</pattern>
+        <template>Hari ini adalah hari
+            <date format="%A" jformat="EEEEEEEE" />
+        </template>
+    </category>
+    <category>
+        <pattern>TAHUN</pattern>
+        <template>Tahun
+            <date format="%Y" jformat="YYYY" />
+        </template>
+    </category>
+    <category>
+        <pattern>BULAN</pattern>
+        <template>Bulan
+            <date format="%B" jformat="MM" />
+        </template>
+    </category>
+    <category>
+        <pattern>JAM</pattern>
+        <template>Sekarang jam
+            <date format="%I:%M %p" jformat="h:mm a" />
+        </template>
+    </category>
+    <category>
+        <pattern>BAGAIMANA HARI INI</pattern>
+        <template>
+            <think>
+                <set name="hour">
+                    <date format="%I" jformat="h" />
+                </set>
+            </think>
+            <condition name="hour" value="0">
+                Sekarang hari sudah tengah malam
+            </condition>
+            <condition name="hour" value="5">
+                Sekarang hari sudah sore
+            </condition>
+            <condition name="hour" value="6">
+                Sekarang hari sudah mulai malam
+            </condition>
+            <condition name="hour" value="12">
+                Sekarang hari sudah siang
+            </condition>
+        </template>
+    </category>
+    <category>
+        <pattern>TANGGAL</pattern>
+        <template>Hari ini tanggal
+            <date format="%d %B, %Y" jformat="dd MM, YYYY" />
+        </template>
+    </category>
+    <category>
+        <pattern>TANGGAL DAN JAM</pattern>
+        <template>Tanggal dan jam hari ini
+            <date />
+        </template>
+    </category>
+    <category>
+        <pattern>TANGGAL DAN JAM SEKARANG</pattern>
+        <template>Tanggal dan jam hari sekarang
+            <date />
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARI LAGI ULANG TAHUN SAYA</pattern>
+        <template>
+            Ulang tahun kamu
+            <interval>
+                <jformat>dd MM</jformat>
+                <style>days</style>
+                <from>
+                    <date jformat="dd MM" />
+                </from>
+                <to>28 10</to>
+            </interval>
+            hari lagi.
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChatBot Covid-19</string>
+    <string name="informasi">ChatBot Covid-19 adalah aplikasi yang dibangun menggunakan algoritma AIML, aplikasi ini diharapkan dapat membantu user mendapatkan informasi tentang covid-19</string>
+
+    <string name="exit_question">Apakah kamu ingin keluar aplikasi?</string>
+    <string name="clear_question">Apakah kamu ingin menghapus history chat?</string>
+    <string name="del_message">Apakah kamu ingin menghapus pesan ini?</string>
+</resources>

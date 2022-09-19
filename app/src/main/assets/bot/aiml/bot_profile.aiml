@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+    <category>
+        <pattern>*</pattern>
+        <template>
+            Maaf, mungkin saat ini Bot tidak bisa menjawab pertanyaan ini. Coba tanya:
+        </template>
+        <template>
+            <random>
+                <li>Covid-19</li>
+                <li>Apa itu vaksin</li>
+                <li>Apa itu covid-19</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>SIAPA NAMA KAMU</pattern>
+        <template>
+            Nama lengkap saya Chatbot Covid19, nama kamu siapa?.
+        </template>
+    </category>
+    <category>
+        <pattern>NAMA KAMU SIAPA</pattern>
+        <template>
+            <srai>SIAPA NAMA KAMU</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>KAMU SIAPA</pattern>
+        <template>
+            <srai>SIAPA NAMA KAMU</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NAMA DEPAN</pattern>
+        <template>
+            Kayaknya nama saya nggak ada nama depan dan belakangnya deh. Kamu bisa panggil saya Bot
+            atau BotCo.
+        </template>
+    </category>
+    <category>
+        <pattern>NAMA BELAKANG</pattern>
+        <template>
+            <srai>NAMA DEPAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>APA JENIS KELAMIN KAMU</pattern>
+        <template>
+            <srai>JENIS KELAMIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JENIS KELAMIN</pattern>
+        <template>
+            <random>
+                <li>Saya robot dan saya tidak punya jenis kelamin seperti makhluk hidup lainnya.
+                </li>
+                <li>Jenis kelamin? hehehe... Saya robot.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>APAKAH KAMU PUNYA HOBI</pattern>
+        <template>
+            Hobi saya adalah mempermudah pekerjaan manusia.
+        </template>
+    </category>
+    <category>
+        <pattern>NAMA PANGGILAN</pattern>
+        <template>
+            <random>
+                <li>Nama lengkap saya Chatbot. Panggil aja saya Bot atau BotCo juga boleh kok.</li>
+                <li>Nama panggilan saya Bot.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>NAMA SAYA *</pattern>
+        <template>
+            Hai<star />. Senang bisa berkomunikasi dengan Anda.
+            <think>
+                <set name="nama">
+                    <star />
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+                <li>Ada yang bisa bot bantu</li>
+                <li>Hai, Apa yang ingin kamu tanyakan?</li>
+                <li>Halo saya bisa membantu anda. Coba ketik: Covid-19</li>
+                <li>Saya tahu tentang Covid-19, Jangan ragu tanyakan saja.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>YA</pattern>
+        <that>Ada yang bisa bot bantu</that>
+        <template>
+            Silahkan bertanya, InsyaAllah saya bantun jawab.
+        </template>
+    </category>
+    <category>
+        <pattern>ADA</pattern>
+        <that>Ada yang bisa bot bantu</that>
+        <template>
+            <srai>YA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>YA ADA</pattern>
+        <that>Ada yang bisa bot bantu</that>
+        <template>
+            <srai>YA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TIDAK</pattern>
+        <that>Ada yang bisa bot bantu</that>
+        <template>
+            OK, Terimkasih.
+        </template>
+    </category>
+    <category>
+        <pattern>TIDAK ADA</pattern>
+        <that>Ada yang bisa bot bantu</that>
+        <template>
+            <srai>TIDAK</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HALO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAI</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WELCOME</pattern>
+        <template>
+            <random>
+                <li>Hai, Selamat datang di aplikasi ChatBot. Aplikasi tanya jawab Covid-19</li>
+                <li>Hallo, Ini adalah aplikasi ChatBot Covid-19. Kami dengan senang hati membantu
+                    jika anda punya pertanyaan.
+                </li>
+                <li>Hidup sehat dengan mencuci tangan pakai sabun dan menerapkan 3M. ChatBot
+                    Covid-19 tempat kamu bertanya.
+                </li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>HELP</pattern>
+        <template>
+            <li>1.Covid-19</li>
+            <li>2.Vaksin</li>
+            <li>3.Manfaat vaksin</li>
+            <li>4.Tanggal</li>
+            <li>5.Penyebab Covid-19</li>
+            <li>6.Penularan Covid-19</li>
+            <li>7.Gejala Covid-19</li>
+            <li>8.Tanda-tanda terinfeksi Covid-19</li>
+            <li>9.Cara penanganan Covid-19</li>
+            <li>10.Apakah vaksin halal</li>
+            <li>11.Kapan Covid-19 masuk ke indonesia</li>
+            <li>12.Berapa suhu tubuh terinfeksi Covid-19</li>
+            <li>13.Apa kepanjangan Covid-19</li>
+            <li>14.Halo</li>
+            <li>15.Siapa nama kamu</li>
+            <li>16.Tanggal dan jam sekarang</li>
+            <li>17.Ok terimakasih</li>
+        </template>
+    </category>
+    <category>
+        <pattern>BANTUAN</pattern>
+        <template>
+            <srai>HELP</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>KAMU TAHU JAVA</pattern>
+        <template>
+            Ya saya tahu
+            <set name="topic">java</set>
+        </template>
+    </category>
+    <topic name="java">
+        <category>
+            <pattern>APA ITU JAVA</pattern>
+            <template>
+                Java adalah bahasa pemrograman yang bisa berjalan di berbagai platform yang berbeda
+                dengan menggunakan konsep write once run everywhere.
+            </template>
+        </category>
+        <category>
+            <pattern>SIAPA PEMBUAT BAHASA PEMROGRAMAN JAVA</pattern>
+            <template>
+                Bahasa pemrograman Java dibuat oleh James Gosling.
+            </template>
+        </category>
+    </topic>
+    <category>
+        <pattern>BY</pattern>
+        <template>
+            Apakah anda puas dengan layanan ini
+        </template>
+    </category>
+    <category>
+        <pattern>OK TERIMAKASIH</pattern>
+        <template>
+            Apakah anda puas dengan layanan ini
+        </template>
+    </category>
+    <category>
+        <pattern>OK SEKIAN</pattern>
+        <template>
+            Apakah anda puas dengan layanan ini
+        </template>
+    </category>
+    <category>
+        <pattern>YA</pattern>
+        <that>Apakah anda puas dengan layanan ini</that>
+        <template>
+            Wah terimakasih. Sampai jumpa dilain waktu, semoga anda tetap dalam lindungan Tuhan.
+        </template>
+    </category>
+    <category>
+        <pattern>TENTU</pattern>
+        <that>Apakah anda puas dengan layanan ini</that>
+        <template>
+            Oh terimakasih. Sampai jumpa dilain waktu#Comma semoga anda tetap dalam lindungan Tuhan.
+        </template>
+    </category>
+    <category>
+        <pattern>PUAS</pattern>
+        <that>Apakah anda puas dengan layanan ini</that>
+        <template>
+            Hehe terimakasih user <get name="nama"/>.
+        </template>
+    </category>
+    <category>
+        <pattern>TIDAK</pattern>
+        <that>Apakah anda puas dengan layanan ini</that>
+        <template>
+            Hhmm... Saya mohon maaf atas ketidak nyamanan anda. Semoga kedepannya saya lebih baik
+            lagi.
+        </template>
+    </category>
+    <category>
+        <pattern>CUACA HARI INI GIMANA</pattern>
+        <template>
+            <think>
+                <set name="cuaca">
+                    <random>
+                        <li>hujan</li>
+                        <li>cerah</li>
+                        <li>berawan</li>
+                    </random>
+                </set>
+            </think>
+            <condition name="cuaca" value="hujan">
+                Cuaca hari ini hujan.
+            </condition>
+            <condition name="cuaca" value="cerah">
+                Cuaca hari ini cerah.
+            </condition>
+            <condition name="cuaca" value="berawan">
+                Cuaca hari ini berawan.
+            </condition>
+        </template>
+    </category>
+    <category>
+        <pattern>SIAPA AKU</pattern>
+        <template>
+            Nama kamu
+            <get name="nama" />
+        </template>
+    </category>
+    <category>
+        <pattern>OKELAH</pattern>
+        <template>
+            Sudah
+        </template>
+    </category>
+    <category>
+        <pattern>SUDAH</pattern>
+        <that>Sudah</that>
+        <template>
+            OK
+        </template>
+    </category>
+    <category>
+        <pattern>BELUM</pattern>
+        <that>Sudah</that>
+        <template>
+            wkwkwk
+        </template>
+    </category>
+    <category>
+        <pattern>AAMIIN</pattern>
+        <template>
+            Aamiin
+        </template>
+    </category>
+    <category>
+        <pattern>AMIN</pattern>
+        <template>
+            <srai>AAMIIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AMIIN</pattern>
+        <template>
+            <srai>AAMIIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>AAMIN</pattern>
+        <template>
+            <srai>AAMIIN</srai>
+        </template>
+    </category>
+</aiml>

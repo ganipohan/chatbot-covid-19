@@ -1,0 +1,42 @@
+0,*,*,*,Maaf#Comma mungkin saat ini Bot tidak bisa menjawab pertanyaan ini. Coba tanya: #Newline<random>#Newline<li>Covid-19</li>#Newline<li>Apa itu vaksin</li>#Newline<li>Apa itu covid-19</li>#Newline</random>,profile_bot.aiml
+0,SIAPA NAMA KAMU,*,*,Nama lengkap saya Chatbot Covid-19#Comma nama kamu siapa?.,profile_bot.aiml
+0,NAMA KAMU SIAPA,*,*,<srai>SIAPA NAMA KAMU</srai>,profile_bot.aiml
+0,KAMU SIAPA,*,*,<srai>SIAPA NAMA KAMU</srai>,profile_bot.aiml
+0,NAMA DEPAN,*,*,Kayaknya nama saya nggak ada nama depan dan belakangnya deh. Kamu bisa panggil saya Bot atau BotCo.,profile_bot.aiml
+0,NAMA BELAKANG,*,*,<srai>NAMA DEPAN</srai>,profile_bot.aiml
+0,APA JENIS KELAMIN KAMU,*,*,<srai>JENIS KELAMIN</srai>,profile_bot.aiml
+0,JENIS KELAMIN,*,*,<random>#Newline<li>Saya robot dan saya tidak punya jenis kelamin seperti makhluk hidup lainnya.</li>#Newline<li>Jenis kelamin? Hehehe... Saya robot.</li>#Newline</random>,profile_bot.aiml
+0,APAKAH KAMU PUNYA HOBI,*,*,Hobi saya adalah mempermudah pekerjaan manusia,profile_bot.aiml
+0,NAMA PANGGILAN,*,*,<random>#Newline<li>Nama lengkap saya Chatbot. Panggil aja saya Bot atau BotCo juga boleh kok.</li>#Newline<li>Nama panggilan saya Bot.</li>#Newline</random>,profile_bot.aiml
+0,NAMA SAYA *,*,*,Hai#Comma <star />. Senang bisa berkomunikasi dengan Anda<think><set name="nama"><star/></set></think>,profile_bot.aiml
+0,HELLO,*,*,<random>#Newline<li>Ada yang bisa bot bantu?</li>#Newline<li>Hai#Comma Apa yang ingin kamu tanyakan?.</li>#Newline<li>Halo saya bisa membantu anda. Coba ketik: Covid-19</li>#Newline<li>Saya tahu tentang Covid-19#Comma Jangan ragu tanyakan saja.</li>#Newline</random>,profile_bot.aiml
+0,YA,Ada yang bisa bot bantu,*,Silahkan bertanya#Comma InsyaAllah saya bantun jawab.,profile_bot.aiml
+0,ADA,Ada yang bisa bot bantu,*,<srai>YA</srai>,profile_bot.aiml
+0,YA ADA,Ada yang bisa bot bantu,*,<srai>YA</srai>,profile_bot.aiml
+0,TIDAK,Ada yang bisa bot bantu,*,Ok#Comma Terimakasih.,profile_bot.aiml
+0,TIDAK ADA,Ada yang bisa bot bantu,*,<srai>TIDAK</srai>,profile_bot.aiml
+0,HALO,*,*,<srai>HELLO</srai>,profile_bot.aiml
+0,HAI,*,*,<srai>HELLO</srai>,profile_bot.aiml
+0,WELCOME,*,*,<random>#Newline<li>Hai#Comma Selamat datang di aplikasi ChatBot. Aplikasi tanya jawab Covid-19.</li>#Newline<li>Hallo#Comma Ini adalah aplikasi ChatBot Covid-19. Kami dengan senang hati membantu jika anda punya pertanyaan.</li>#Newline<li>Hidup sehat dengan mencuci tangan pakai sabun dan menerapkan 3M. ChatBot Covid-19 tempat kamu bertanya.</li>#Newline</random>,profile_bot.aiml
+0,HELP,*,*,1.Covid-19#Newline2.Vaksin#Newline3.Manfaat vaksin#Newline4.Tanggal#Newline5.Penyebab Covid-19#Newline6.Penularan Covid-19 *#Newline7.Gejala Covid-19#Newline8.Tanda-tanda terinfeksi Covid-19#Newline9.Cara penanganan Covid-19#Newline10.Apakah vaksin halal#Newline11.Kapan Covid-19 masuk ke indonesia#Newline12.Berapa suhu tubuh terinfeksi Covid-19#Newline13.Apa kepanjangan Covid-19#Newline14.Halo#Newline15.Siapa nama kamu#Newline16.Tanggal dan jam sekarang#Newline17.Ok terimakasih,profile_bot.aiml
+0,BANTUAN,*,*,<srai>HELP</srai>,profile_bot.aiml
+0,KAMU TAHU JAVA,*,*,Ya saya tahu <set name="topic">java</set>,profile_bot.aiml
+0,APA ITU JAVA,*,java,Java adalah bahasa pemrograman yang bisa berjalan di berbagai platform yang berbeda dengan menggunakan konsep write once run everywhere.,profile_bot.aiml
+0,SIAPA PEMBUAT BAHASA PEMROGRAMAN JAVA,*,java,Bahasa pemrograman Java dibuat oleh James Gosling.,profile_bot.aiml
+0,BY,*,*,Apakah anda puas dengan layanan ini,profile_bot.aiml
+0,OK TERIMAKASIH,*,*,Apakah anda puas dengan layanan ini,profile_bot.aiml
+0,OK SEKIAN,*,*,Apakah anda puas dengan layanan ini,profile_bot.aiml
+0,YA,Apakah anda puas dengan layanan ini,*,Wah terimakasih. Sampai jumpa dilain waktu#Comma semoga anda tetap dalam lindungan Tuhan.,profile_bot.aiml
+0,TENTU,Apakah anda puas dengan layanan ini,*,Oh terimakasih. Sampai jumpa dilain waktu#Comma semoga anda tetap dalam lindungan Tuhan.,profile_bot.aiml
+0,PUAS,Apakah anda puas dengan layanan ini,*,Hehe terimakasih user <get name="nama"/>.,profile_bot.aiml
+0,TIDAK,Apakah anda puas dengan layanan ini,*,Hhmm... Saya mohon maaf atas ketidak nyamanan anda. Semoga kedepannya saya lebih baik lagi.,profile_bot.aiml
+0,CUACA HARI INI GIMANA,*,*,<think>#Newline<set name="cuaca">#Newline<random>#Newline<li>hujan</li>#Newline<li>cerah</li>#Newline<li>berawan</li>#Newline</random>#Newline</set>#Newline</think>#Newline<condition name="cuaca" value="hujan">#NewlineCuaca hari ini hujan.#Newline</condition>#Newline<condition name="cuaca" value="cerah">#NewlineCuaca hari ini cerah.#Newline</condition>#Newline<condition name="cuaca" value="berawan">#NewlineCuaca hari ini berawan.#Newline</condition>,profile_bot.aiml
+0,SIAPA AKU,*,*,Nama kamu <get name="nama"/>,profile_bot.aiml
+0,OKELAH,*,*,Sudah,profile_bot.aiml
+0,SUDAH,Sudah,*,OK,profile_bot.aiml
+0,BELUM,Sudah,*,wkwkwk,profile_bot.aiml
+0,AAMIIN,*,*,Aamiin,profile_bot.aiml
+0,AMIN,*,*,<srai>AAMIIN</srai>,profile_bot.aiml
+0,AMIIN,*,*,<srai>AAMIIN</srai>,profile_bot.aiml
+0,AAMIN,*,*,<srai>AAMIIN</srai>,profile_bot.aiml
+
